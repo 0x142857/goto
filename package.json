@@ -1,0 +1,23 @@
+{
+  "name": "goto-cli",
+  "version": "0.1.0",
+  "description": "Goto visit website from terminal by its name or its url",
+  "main": "index.js",
+  "bin": {
+    "goto": "./bin/goto.js"
+  },
+  "scripts": {
+    "test": "node ./bin/goto.js"
+  },
+  "keywords": [
+    "website",
+    "link",
+    "goto"
+  ],
+  "author": "0x142857 <0x142857@gmail.com> (https://0x142857.com/)",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^0.5.1",
+    "minimist": "^1.1.0"
+  }
+}
